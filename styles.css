@@ -1,0 +1,61 @@
+.card {
+    background-color: rgb(224, 251, 249);
+    width: 500px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+.card.recipe {
+    width: 800px;
+}
+h1, h2, h3, h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(44, 44, 44);
+    text-align: left;
+    font-size: 28px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: circle ;
+    margin: 10px;
+}
+
+.recipes-list {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type:decimal;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+a {
+    padding: 10px;
+    background-color: lightyellow;
+    color: rgb(44, 44, 44);
+    width: 200px;
+    text-decoration: none;
+    display:block;
+    border: 1px solid rgb(44, 44, 44);
+}
+a:hover {
+    background-color: white;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
